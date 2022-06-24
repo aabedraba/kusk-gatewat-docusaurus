@@ -72,9 +72,9 @@ kusk api generate \
 This will fetch the OpenAPI document from the provided URL and generate a Kusk Gateway API resource.
 
 #### **Example**
-Take a look at the [http-bin example spec](/examples/httpbin/httpbin-spec.yaml).
+Take a look at the [http-bin example spec](https://github.com/kubeshop/kusk-gateway/blob/main/examples/httpbin/manifest.yaml).
 
-```
+```sh
 kusk api generate -i ./examples/httpbin-spec.yaml --name httpbin-api --upstream.service httpbin --upstream.port 8080 --envoyfleet.name kusk-gateway-envoy-fleet
 ```
 

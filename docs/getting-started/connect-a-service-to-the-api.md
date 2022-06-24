@@ -83,7 +83,7 @@ kubectl apply -f api.yaml
 
 ## **4. Test the API**
 
-Get the External IP of Kusk-gateway as indicated in [installing Kusk-gateway section](../installation/#2-get-the-gateways-external-ip) and run:
+Get the External IP of Kusk-gateway as indicated in [installing Kusk-gateway section](./installation#get-the-gateways-external-ip) and run:
 
 ```
 $ curl EXTERNAL_IP/hello
