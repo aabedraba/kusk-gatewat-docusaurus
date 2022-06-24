@@ -235,7 +235,7 @@ The rate_limit object contains the following properties to configure request rat
 | `rate_limit.per_connection`       | Boolean flag, that specifies whether the rate limiting, should be applied per connection or in total. Default: false. |
 | `rate_limit.response_code`        | HTTP response code, which is returned when rate limiting. Default: 429, Too Many Requests. |
 
-Note: Currently, rate limiting is applied per Envoy pod - if you have more than a single Envoy pod the total request capacity will be bigger than specified in the rate_limit object. You can check how many Envoy pods you run in the `spec.size` attribute of [EnvoyFleet object](../customresources/envoyfleet.md).
+Note: Currently, rate limiting is applied per Envoy pod - if you have more than a single Envoy pod the total request capacity will be bigger than specified in the rate_limit object. You can check how many Envoy pods you run in the `spec.size` attribute of [EnvoyFleet object](../custom-resources/envoyfleet.md).
 
 
 ### **Caching**

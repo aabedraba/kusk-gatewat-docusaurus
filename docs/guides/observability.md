@@ -19,7 +19,7 @@ annotations:
   prometheus.io/path: /stats/prometheus
 ```
 
-This can be configured with [EnvoyFleet Custom resource](../customresources/envoyfleet.md) spec.annotations field.
+This can be configured with [EnvoyFleet Custom resource](../custom-resources/envoyfleet.md) spec.annotations field.
 
 The list of exported HTTP metrics is described in [HTTP Connection Manager Statistics](https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_conn_man/stats). See also
 [Listener Metrics](https://www.envoyproxy.io/docs/envoy/latest/configuration/listeners/stats).

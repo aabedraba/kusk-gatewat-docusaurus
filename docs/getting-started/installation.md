@@ -50,7 +50,7 @@ Load Balancer by running the command below. Note that it may take a few seconds 
 kubectl get svc -l "app.kubernetes.io/component=envoy-svc" --namespace kusk-system
 ```
 
-The output should contain the [Envoy Fleet](../customresources/envoyfleet) Service, which is the entry point of your API gateway, with the **External-IP** address field - use this address for your API endpoints querying. Note that it might take a while for the External IP to be created.
+The output should contain the [Envoy Fleet](../custom-resources/envoyfleet) Service, which is the entry point of your API gateway, with the **External-IP** address field - use this address for your API endpoints querying. Note that it might take a while for the External IP to be created.
 
 !!! note non-important "External IP might not be available for some cluster setups".
 

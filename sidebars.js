@@ -22,7 +22,7 @@ const sidebars = {
     {
       type: "doc",
       label: "Intro",
-      id: "intro"
+      id: "intro",
     },
     {
       type: "category",
@@ -30,16 +30,7 @@ const sidebars = {
       items: [
         "getting-started/installation",
         "getting-started/deploy-an-api",
-        "getting-started/connect-a-service-to-the-api"
-      ],
-    },
-    {
-      type: "category",
-      label: "Dashboard",
-      items: [
-        "dashboard/overview",
-        "dashboard/inspecting-apis",
-        "dashboard/deploying-apis",
+        "getting-started/connect-a-service-to-the-api",
       ],
     },
     {
@@ -60,13 +51,46 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "CLI",
+      label: "Kusk Dashboard",
+      items: [
+        "dashboard/overview",
+        "dashboard/inspecting-apis",
+        "dashboard/deploying-apis",
+      ],
+    },
+    {
+      type: "category",
+      label: "Kusk CLI",
       items: [
         "cli/overview",
         "cli/install-cmd",
         "cli/generate-cmd",
         "cli/dashboard-cmd",
       ],
+    },
+    {
+      type: "category",
+      label: "Kusk Resources",
+      items: [
+        "custom-resources/overview",
+        "custom-resources/api",
+        "custom-resources/envoyfleet",
+        "custom-resources/staticroute",
+      ],
+    },
+    {
+      type: "category",
+      label: "Reference",
+      items: [
+        "reference/architecture",
+        "reference/extension",
+        "reference/openapi",
+      ],
+    },
+    {
+      type: "category",
+      label: "Contributing",
+      items: ["contributing/development", "contributing/roadmap"],
     },
   ],
 };

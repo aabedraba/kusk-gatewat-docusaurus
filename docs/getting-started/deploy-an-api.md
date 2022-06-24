@@ -68,6 +68,6 @@ In the [next section](connect-a-service-to-the-api.md), we'll cover how to conne
 
 ### **Read More**
 
-- Kusk Gateway [API manifest](../customresources/api.md).
+- Kusk Gateway [API manifest](../custom-resources/api.md).
 - The [x-kusk extension](../guides/working-with-extension.md).
 - [Mocking of APIs](../guides/mocking.md) with Kusk.
